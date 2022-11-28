@@ -19,9 +19,10 @@ namespace TestProject2.Page
         public IWebElement Phone => driver.FindElement(By.Id("phone"));
         public IWebElement SaveButton => driver.FindElement(By.Id("save"));
         public IWebElement LogoutButton => driver.FindElement(By.Id("logout"));
+        public IWebElement SaveText => driver.FindElement(By.ClassName("tp-saved"));
 
 
-       // public void Title(string option)
+        // public void Title(string option)
         //{
         //    SelectElement drop = new SelectElement(driver.FindElement(By.Id("TitleId")));
         //    drop.SelectByText(option);
